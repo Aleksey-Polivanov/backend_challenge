@@ -25,7 +25,7 @@
     `yarn server-start` - Run server, 
 
 
-#Tasks
+# Tasks
  #### The First task for a Junior position (10 mins)
      - Start the project according to the instructions 
      - add new table "Products" with fields [ id, name, status, quantity ] and create Many-to-many association with "Users" table
