@@ -1,10 +1,5 @@
 # Backend Challenge
-
-### Commands (from root directory):
- `yarn server-install` - Install backend libraries and run migrations,
- `yarn server-start` - Run server,
- 
- #### DB
+ #### Setup DB
      Install postgresSQL: https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx
 
      psql -U postgres
@@ -24,11 +19,17 @@
      
      Remove all migration tables:
      npm run sequelize db:migrate:undo:all
- 
+
+ ### Commands (from root directory):
+    `yarn server-install` - Install backend libraries and run migrations,
+    `yarn server-start` - Run server, 
+
  #### PostgreSQL Client for the Mac
  
- https://eggerapps.at/postico/
+    https://eggerapps.at/postico/
  
  #### Created Dump from DB
  
-     pg_dump backend_challenge_dev > db-backend_challenge-dev.sql
+    pg_dump backend_challenge_dev > db-backend_challenge-dev.sql
+
+
