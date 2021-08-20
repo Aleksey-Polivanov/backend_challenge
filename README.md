@@ -1,9 +1,8 @@
 # Backend Challenge
 
 ### Commands (from root directory):
- `yarn server-setup`: Install backend libraries,
- 
- `yarn server-start` Run server,
+ `yarn server-install` - Install backend libraries and run migrations,
+ `yarn server-start` - Run server,
  
  #### DB
      Install postgresSQL: https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx
