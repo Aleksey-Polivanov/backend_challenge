@@ -20,16 +20,16 @@
      Remove all migration tables:
      npm run sequelize db:migrate:undo:all
 
- ### Commands (from root directory):
-    `yarn server-install` - Install backend libraries and run migrations,
+ ### Commands for start project:
+    `yarn server-install` - Install node modules and run migrations,
     `yarn server-start` - Run server, 
 
- #### PostgreSQL Client for the Mac
- 
-    https://eggerapps.at/postico/
- 
- #### Created Dump from DB
- 
-    pg_dump backend_challenge_dev > db-backend_challenge-dev.sql
-
+#Tasks
+ #### The First task for a Junior position (10 mins)
+     - Start the project according to the instructions 
+     - add new table "Products" with fields [ id, name, status, quantity ] and create Many-to-many association with "Users" table
+ #### The Second task for a Middle position (10 mins)
+     - Connect to our external IP for get Products
+     - Fill in the new table Products with "Active" products that were returned by the API.
+ #### The Third task for Senior position (10 mins) (WIP)
 
