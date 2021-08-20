@@ -8,13 +8,13 @@
     "sequelize": "node node_modules/.bin/sequelize",
     "sequelize-reset": "npm run sequelize db:drop && npm run sequelize db:create && npm run sequelize db:migrate",
     "sequelize-migrate": "npm run sequelize db:migrate",
-    "server-install": "yarn --ignore-engines && npm run sequelize-migrate"
+    "server-install": "yarn --ignore-engines && npm run sequelize-reset"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com-ic:globalluxsoft/backend_challenge.git"
   },
-  "author": "Michael",
+  "author": "Alexey",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/client": "6.5.5",
