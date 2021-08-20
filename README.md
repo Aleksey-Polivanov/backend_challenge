@@ -24,6 +24,7 @@
     `yarn server-install` - Install node modules and run migrations,
     `yarn server-start` - Run server, 
 
+
 #Tasks
  #### The First task for a Junior position (10 mins)
      - Start the project according to the instructions 
