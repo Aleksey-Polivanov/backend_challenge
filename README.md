@@ -8,8 +8,8 @@
      CREATE DATABASE backend_challenge_dev OWNER backend_challenge;     // for development
 
  ### Commands for start project:
-    `yarn server-install` - Install node modules and run migrations,
-    `yarn server-start` - Run server, 
+    `npm run server-install` - Install node modules and run migrations,
+    `npm run server-start` - Run server, 
 
 # Tasks
  #### The First task for a Junior position (10 mins)
